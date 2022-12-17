@@ -1,0 +1,341 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(194, 197, 196);
+    position: relative;
+}
+.scroll_box {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(31, 5, 128);
+    position: fixed;
+    left: 99%;
+    top: 90%;
+    margin-left: -100px;
+    z-index: 9;
+}
+.scroll_text{
+    font-size: 20px;
+    color: rgb(194, 197, 196);
+    margin-left: 7px;
+}
+.top {
+    margin: 0px;
+    height: 850px;
+    background-color: black;
+}
+.pic {
+    z-index: 3;
+    position: absolute;
+    top: 830px;
+    left: 100px;
+}
+
+.about {
+    font-family: 'Russo One', sans-serif;
+    font-size: 150px;
+    color: rgb(194, 197, 196);
+    text-align: center;
+}
+.one {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+.links {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 150px;
+}
+li:last-child {
+    margin-right: 0px;
+}
+.scroll {
+    font-family: 'Poiret One', cursive;
+    color: rgb(194, 197, 196);
+    text-decoration: none;
+    font-size: 24px;
+}
+.quad {
+    width: 100px;
+    height: 100px;
+    background: rgb(146, 141, 88);
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+.bottom_symbol {
+    position: absolute;
+    top: 850px;
+    left: 1030px;
+    z-index: 8;
+}
+.title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: rgb(241, 239, 239);
+    text-align: center;
+}
+.quad_two {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(146, 141, 88);
+    position: absolute;
+    top: 750px;
+    left: 900px;
+    z-index: 2;
+}
+.twogray {
+    height: 700px;
+    background-color: rgb(194, 197, 196);
+    position: relative;
+}
+.img_two {
+    position: absolute;
+    left: 850px;
+    z-index: 3;
+}
+.discription {
+    width: 600px;
+    height: 580px;
+    position: absolute;
+    left: 850px;
+    top: 200px;
+}
+.description_two {
+    position: absolute;
+    top: 480px;
+}
+.about_title {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+h2 {
+    font-family: 'Poiret One', cursive;
+}
+h3 {
+    font-family: 'Poiret One', cursive;
+}
+h4 {
+    font-family: 'Poiret One', cursive;
+}
+
+.black {
+    height: 1100px;
+    background-color: black;
+    position: relative;
+}
+.black_reason {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.quad_three {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(146, 141, 88);
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+.black_title {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(194, 197, 196);
+    font-size: 30px;
+    text-align: center;
+}
+.black_desc {
+    color: rgb(194, 197, 196);
+    text-align: justify;
+}
+.blc {
+    position: absolute;
+    top: 550px;
+    left: 40px;
+}
+.blc_desc {
+    font-size: 20px;
+    color: rgb(194, 197, 196);
+}
+h4 {
+    font-size: 20px;
+    color: rgb(194, 197, 196);
+}
+.power {
+    position: absolute;
+    top: 400px;
+    z-index: 5;
+}
+.thregray {
+    height: 800px;
+    background-color: rgb(194, 197, 196);
+    position: relative;
+}
+.thregray_box {
+    position: absolute;
+    top: 150px;
+    left: 1090px;
+
+}
+.thregray_title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+.bottom {
+    position: absolute;
+    left: 1100px;
+    top: 250px;
+}
+.thregray_box_two {
+    position: absolute;
+    top: 520px;
+    left: 40px;
+}
+.border {
+    width: 800px;
+    height: 250px;
+    background-color: rgb(146, 141, 88);
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    z-index: 5;
+}
+.border_title {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(194, 197, 196);
+    font-size: 40px;
+    text-align: center;
+}
+.bordet_text {
+    color: rgb(194, 197, 196);
+    font-size: 20px;
+    text-align: justify;
+}
+.twoblack {
+    height: 900px;
+    background-color: black;
+    position: relative;
+}
+.twoblack_text {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.text_text {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(194, 197, 196);
+    font-size: 30px;
+}
+.twoblack_box {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+.twoblack_desc {
+    color: rgb(194, 197, 196);
+    font-size: 20px;
+}
+.twoblack_desc_two {
+    color: rgb(194, 197, 196);
+    font-size: 20px;
+}
+.twoblack_desc_three {
+    color: rgb(194, 197, 196);
+    font-size: 20px;
+}
+.twoblack_desc_four {
+    color: rgb(194, 197, 196);
+    font-size: 20px;
+}
+.pic_klinika {
+    position: absolute;
+    z-index: 6;
+
+}
+.gray_four {
+    height: 900px;
+    background-color: rgb(194, 197, 196);
+    position: relative;
+}
+.box_four {
+    position: absolute;
+    width: 390px;
+    height: 200px;
+    background-color: rgb(146, 141, 88);
+    left: 1100px;
+    top: 200px;
+}
+.text_four {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(194, 197, 196);
+    font-size: 25px;
+    text-align: center;
+}
+ul {
+    list-style-type: decimal;
+    position: absolute;
+    top: 400px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+}
+.decor_strelka {
+    position: absolute;
+    left: -120px;
+    top: 200px;
+}
+.box_five {
+    position: absolute;
+    top: 600px;
+    left: 40px;
+}
+.text_five {
+    color: black;
+    font-size: 25px;
+}
+.black_five_box {
+    width: 800px;
+    height: 470px;
+    background-color: rgb(146, 141, 88);
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    z-index: 7;
+}
+.black_five_text{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(194, 197, 196);
+    font-size: 25px;
+}
+.black_five_last {
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+.box_decor {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+    background-color: rgb(146, 141, 88);
+}
+.decor {
+    position: absolute;
+    left: 1100px;
+}
+footer {
+    height: 100px;
+}
+hr {
+    margin-top: 40px;
+}
+address {
+    text-align: center;
+}
